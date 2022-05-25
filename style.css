@@ -9,7 +9,7 @@ body{
 
 }
 
-.nav-container {
+.fixed-navbar {
     background-color: #BEB7A4;
     width: 100%;
     height: 100px;
@@ -21,39 +21,60 @@ body{
 }
 
 .navbar {
-    display: flex;
-    justify-content: right;
+    float: right;
     font-style: normal;
+    justify-content: right;
+    position: relative;
+    height: 100%;
+    width: 550px;
+    margin-right: 10px;
     /* text-align: right;
     vertical-align: middle;
     line-height: 100px; */
 }
 
 
-ul {
-    display: block;
-    max-height: fit-content;
-    position: fixed;
-}
-
-ul li {
+.navbar ul li {
     list-style: none;
     display: inline-block;
 }
 
-ul li a {
+.navbar ul li a {
     text-decoration-line: none;
     display: block;
     color: white;
     font-size: 24px;
     top: 50px;
-    padding: 35px 25px;
+    padding: 38px 25px;
+    height: 100%;
 }
 
-ul li a:hover {
+.navbar ul li a:hover {
     text-decoration-line: underline;
     background-color: rgba(0, 0, 0, 0.09);
 }
+
+.company-name-div {
+    float: left;
+    position: relative;
+    height: 100%;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.company-name-div h1 {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.company-name-div h1 a {
+    text-decoration-line: none;
+    color: white;
+}
+
 
 .container {
     margin-top: 100px;
