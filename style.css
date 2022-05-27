@@ -9,10 +9,10 @@ body{
    }
 
    /* dog image */
-body img{
+.dog-image img{
 
     display: block;
-    margin: 0 auto;
+    margin: auto;
   
 }
 
