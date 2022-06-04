@@ -9,8 +9,9 @@ body{
    }
 
    /* dog image */
-.dog-image img{
 
+.dog-image img{
+    z-index: 1;
     display: block;
     margin: auto;
   
@@ -90,21 +91,43 @@ body{
     /* center the content and use in home page */
     /* width: 1200px;
     margin: auto; */
-    
-    
+}
+
+.about-content{
+    background-color:#632210;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+.about-content p{
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: larger;
+}
+
+.about-content h1{
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: xx-large;
 }
 
 /* donation botton */
-.fixed-donation {
+/* .fixed-donation {
     position: fixed;
     left: 50%;
-    margin-left: 600px;
-    top: 50%;
-    
-}
-.fixed-donation img {
+    margin-left: 500px;
+    top: 50%; 
+    z-index: 2;
+} */
+
+/* .fixed-donation {
     width: 90px;
-    height: 80px;
-    
-    
-} 
+    height: 70px;
+    left: 100px;
+}  */
+
+/* .fixed-donation img:hover{
+    margin-left: 400px;
+}  */
