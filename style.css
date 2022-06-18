@@ -10,13 +10,6 @@ body{
 
    /* dog image */
 
-.dog-image img{
-    z-index: 1;
-    display: block;
-    margin: auto;
-  
-}
-
 .fixed-navbar {
     background-color: #BEB7A4;
     width: 100%;
@@ -26,6 +19,8 @@ body{
     top: 0px;
     overflow: hidden;
     position: fixed;
+    z-index: 100;
+
 }
 
 .navbar {
@@ -86,11 +81,36 @@ body{
 
 .container {
     margin-top: 100px;
-    
-
     /* center the content and use in home page */
     /* width: 1200px;
     margin: auto; */
+}
+
+.donate {
+    justify-items: center;
+    position: relative;
+}
+
+.donate-button {
+    position: fixed;
+    right: 250px;
+    top: 50%;
+    /* z-index: -99; */
+}
+
+.donate-button :hover {
+    position: fixed;
+    right: 230px;
+    top: 50%;
+    /* z-index: -99; */
+
+}
+
+
+
+.dog-img {
+    z-index: -100;
+    /* position: absolute; */
 }
 
 .about-content{
